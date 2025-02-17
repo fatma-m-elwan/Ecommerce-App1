@@ -35,6 +35,7 @@ function App() {
       {path: "checkout" , element: <ProtectedRoutes><Checkout/></ProtectedRoutes>},
       {path: "productdetails/:id/:category" , element: <ProtectedRoutes><ProductDetails/></ProtectedRoutes>},
       {path: "login" , element: <ProtectedAuth><Login/></ProtectedAuth>},
+      {path: "Ecommerce-App1/" , element: <ProtectedAuth><Login/></ProtectedAuth>},
       {path: "register" , element: <ProtectedAuth><Register/></ProtectedAuth> },
       {path: "forgetpassword" , element: <ProtectedAuth><ForgetPassword/></ProtectedAuth> },
       {path: "verifycode" , element: <ProtectedAuth><VerifyCode/></ProtectedAuth> },
